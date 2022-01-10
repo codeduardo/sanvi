@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap");
+
+$tipo-letra-principal: "Poppins", sans-serif;
+$tipo-letra-secundario: "Rouge Script", cursive;
+$color-rojo: #fa4242;
+$color-azul: #3955e9;
+
+html {
+  box-sizing: border-box;
+  font-family: $tipo-letra-principal;
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

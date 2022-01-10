@@ -1,0 +1,159 @@
+@import "./app.scss";
+
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  .logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 100px;
+    }
+  }
+  .header-content {
+    flex: 6;
+    .upper {
+      text-align: center;
+      font-size: 20px;
+    }
+    .lower {
+      ul {
+        display: flex;
+        justify-content: space-around;
+        background-color: $color-rojo;
+        padding: 10px 0;
+        li {
+          list-style: none;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+.parrafo-header {
+  background-color: $color-azul;
+  text-align: center;
+  p {
+    color: #fff;
+    font-family: $tipo-letra-secundario;
+    font-size: 40px;
+    margin: 0;
+    padding: 5px 0;
+  }
+}
+.image-inicio {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.actividades {
+  .box-barra {
+    width: 620px;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+    .barra {
+      width: 620px;
+      height: 10px;
+      background: $color-azul; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to right,
+        $color-rojo,
+        $color-azul
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to right,
+        $color-rojo,
+        $color-azul
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  }
+  .box-actividades {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    gap: 60px;
+    .card {
+      width: 27%;
+      border: 1px solid $color-azul;
+      border-radius: 10px;
+      padding: 0 10px;
+      text-align: center;
+      transition: all 0.4s ease-in-out;
+      .img {
+        img {
+          padding: 10px;
+          height: 80px;
+        }
+      }
+      h3 {
+        span {
+          color: $color-azul;
+          font-weight: 500;
+        }
+      }
+
+      p {
+        display: none;
+        margin: 0;
+      }
+    }
+    .card:hover {
+      background-color: $color-rojo;
+      padding: 20px 10px;
+      h3 {
+        display: none;
+      }
+      p {
+        display: block;
+      }
+    }
+  }
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: $color-rojo;
+  padding-top: 20px;
+  .imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 120px;
+    }
+  }
+  .contactos {
+    color: #fff;
+
+    h3 {
+      text-align: center;
+      font-size: 24px;
+      margin: 0;
+    }
+  }
+  .facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 40px;
+    }
+  }
+}
