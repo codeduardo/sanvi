@@ -1,0 +1,120 @@
+@import "./inicio.scss";
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.imagen-bondad {
+  text-align: center;
+  margin-top: 20px;
+  .text-bondad {
+    background-color: #e2d6d6;
+    padding: 10px 0;
+    h3 {
+      color: $color-rojo;
+      margin: 0;
+      font-weight: 500;
+    }
+    p {
+      margin: 0;
+      font-weight: 200;
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
+.bondad-centro {
+  h3 {
+    color: $color-azul;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .cajas {
+    display: flex;
+    justify-content: space-around;
+    .caja {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      img {
+        width: 70%;
+        margin: 0 auto;
+      }
+      h4 {
+        color: $color-azul;
+        text-align: center;
+        font-weight: 500;
+        span {
+          display: block;
+        }
+      }
+      p {
+        text-align: center;
+        font-weight: 200;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+.labor {
+  margin: 40px 0;
+  .caja {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+
+    align-items: center;
+    .text-caja {
+      flex: 1;
+      h3 {
+        text-align: center;
+        color: $color-rojo;
+      }
+      P {
+        text-align: justify;
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+    img {
+      width: 50%;
+    }
+  }
+  .comedor {
+    background-color: #676fa3;
+  }
+  .internado {
+    background-color: #cddeff;
+  }
+  .juventud {
+    background-color: #eef2ff;
+  }
+}
+
+.box-barra {
+  width: 620px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+  .barra {
+    width: 620px;
+    height: 10px;
+    background: $color-azul; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      $color-rojo,
+      $color-azul
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      $color-rojo,
+      $color-azul
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+}

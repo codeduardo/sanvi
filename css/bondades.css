@@ -230,122 +230,138 @@ a {
   color: #fff;
 }
 
-h3 {
-  margin: 0;
+.imagen-bondad {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.valores {
+.imagen-bondad .text-bondad {
+  background-color: #e2d6d6;
+  padding: 10px 0;
+}
+
+.imagen-bondad .text-bondad h3 {
+  color: #fa4242;
+  margin: 0;
+  font-weight: 500;
+}
+
+.imagen-bondad .text-bondad p {
+  margin: 0;
+  font-weight: 200;
+}
+
+.imagen-bondad img {
+  width: 100%;
+}
+
+.bondad-centro h3 {
+  color: #3955e9;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bondad-centro .cajas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bondad-centro .cajas .caja {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bondad-centro .cajas .caja img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bondad-centro .cajas .caja h4 {
+  color: #3955e9;
+  text-align: center;
+  font-weight: 500;
+}
+
+.bondad-centro .cajas .caja h4 span {
+  display: block;
+}
+
+.bondad-centro .cajas .caja p {
+  text-align: center;
+  font-weight: 200;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.labor {
+  margin: 40px 0;
+}
+
+.labor .caja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.labor .caja .text-caja {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.labor .caja .text-caja h3 {
+  text-align: center;
+  color: #fa4242;
+}
+
+.labor .caja .text-caja P {
+  text-align: justify;
   width: 80%;
   margin: 0 auto;
 }
 
-.valores .mision {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.labor .caja img {
+  width: 50%;
 }
 
-.valores .mision .descripcion {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.labor .comedor {
+  background-color: #676fa3;
 }
 
-.valores .mision .descripcion p {
-  text-align: justify;
+.labor .internado {
+  background-color: #cddeff;
 }
 
-.valores .mision .imagen {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.labor .juventud {
+  background-color: #eef2ff;
 }
 
-.valores .mision .imagen img {
-  height: 400px;
-}
-
-.valores .vision {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.valores .vision .descripcion {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.valores .vision .descripcion p {
-  text-align: justify;
-}
-
-.valores .vision .imagen {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.valores .vision .imagen img {
-  height: 400px;
-}
-
-.red-administrativa .box-barra {
+.box-barra {
   width: 620px;
 }
 
-.red-administrativa .box-barra h2 {
+.box-barra h2 {
   text-align: center;
   margin-bottom: 4px;
   font-weight: 500;
 }
 
-.red-administrativa .box-barra .barra {
+.box-barra .barra {
   width: 620px;
   height: 10px;
   background: #3955e9;
@@ -355,105 +371,4 @@ h3 {
   background: linear-gradient(to right, #fa4242, #3955e9);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
-.red-administrativa .organizacion {
-  margin-top: 40px;
-}
-
-.red-administrativa .organizacion .directora {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.red-administrativa .organizacion .directora .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.red-administrativa .organizacion .directora .box img {
-  height: 180px;
-}
-
-.red-administrativa .organizacion .directora .box p {
-  margin: 0;
-}
-
-.red-administrativa .organizacion .directora .box p:nth-child(4) {
-  font-size: 13px;
-}
-
-.red-administrativa .organizacion .directora .box .p-1 {
-  color: #3955e9;
-  font-weight: 500;
-}
-
-.red-administrativa .organizacion .directora .box .p-2 {
-  color: #fa4242;
-  font-weight: 700;
-}
-
-.red-administrativa .organizacion .subdirectora {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-bottom: 40px;
-}
-
-.red-administrativa .organizacion .subdirectora .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.red-administrativa .organizacion .subdirectora .box img {
-  height: 180px;
-}
-
-.red-administrativa .organizacion .subdirectora .box p {
-  margin: 0;
-}
-
-.red-administrativa .organizacion .subdirectora .box p:nth-child(4) {
-  font-size: 13px;
-}
-
-.red-administrativa .organizacion .subdirectora .box .p-1 {
-  color: #3955e9;
-  font-weight: 500;
-}
-
-.red-administrativa .organizacion .subdirectora .box .p-2 {
-  color: #fa4242;
-  font-weight: 700;
-}
-/*# sourceMappingURL=nosotros.css.map */
+/*# sourceMappingURL=bondades.css.map */
